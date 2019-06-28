@@ -68,6 +68,11 @@ PRODUCT_PACKAGES += \
 # Empty file
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/empty:system/etc/empty
+    
+# FM
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni 
 	
 # Keylayouts
 PRODUCT_COPY_FILES += \
