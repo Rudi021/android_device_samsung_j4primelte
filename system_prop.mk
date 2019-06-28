@@ -1,3 +1,7 @@
+# Fm
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.fm.transmitter=false
+
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
 	debug.sf.enable_hwc_vds=1 \
