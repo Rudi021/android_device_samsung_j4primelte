@@ -69,10 +69,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/empty:system/etc/empty
     
-# FM
+#FM
 PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni 
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
 	
 # Keylayouts
 PRODUCT_COPY_FILES += \
